@@ -6,13 +6,12 @@ body {
    
 }
 h1 {
-    color: #07ff72;
+    color: #000000;
     text-align: center;
     text-decoration: solid overline underline;
     border-radius:20pc;
-    text-shadow: 2px 2px black;
     border-style: double;
-    background-image: linear-gradient(to left, #07ff72, black);
+    background-image: linear-gradient(to left, #ffffff, rgb(0, 38, 255));
     
   }
   p {

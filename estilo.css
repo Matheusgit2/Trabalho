@@ -1,0 +1,24 @@
+body {
+    background-color: #242424;
+    font-family: Arial, sans-serif;
+    color: #fcfcfc;
+    margin: 20px;
+  }
+  
+  /* Estiliza o cabeçalho principal */
+  h2 {
+    color: hsl(4, 96%, 49%);
+    text-align: center;
+  }
+  
+  /* Estiliza o parágrafo */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  footer{
+    font-size: 12px;
+    line-height: 2;
+    color:yellow
+    
+  }

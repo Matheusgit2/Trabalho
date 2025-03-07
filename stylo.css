@@ -1,0 +1,22 @@
+body {
+    background-color: #7fc3ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Estiliza o cabeçalho principal */
+  h1 {
+    color: #000000;
+    text-align: center;
+    border-style: solid;
+    text-decoration:solid overline underline;
+    border-radius: 2pc;
+    background-image: linear-gradient(to right,rgb(250, 250, 255), rgb(0, 38, 255));
+  }
+  
+  /* Estiliza o parágrafo */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
