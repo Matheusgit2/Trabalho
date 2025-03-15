@@ -1,0 +1,24 @@
+body {
+    background-color: #00000077;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 20px;
+   
+}
+h1 {
+    color: #555353;
+    text-align: center;
+    text-decoration: solid overline underline;
+    border-radius:20pc;
+    border-style: double;
+    background-image: linear-gradient(to left, black, white,red);
+    
+  }
+  p {
+    font-size: 20px;
+    line-height: 2;
+  }
+  footer{ font-size: 15px;
+    line-height: 2.5;
+    color: rgb(255, 255, 255)
+  }
