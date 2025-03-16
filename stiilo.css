@@ -1,0 +1,30 @@
+body {
+    background-color: #de1e1e5c;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 20px;
+   
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    text-decoration: solid overline underline;
+    border-radius:20pc;
+    border-style: double;
+    background-image: linear-gradient(to right, red, yellow);
+    
+  }
+  p {
+    font-size: 18px;
+    line-height: 2;
+    color: white
+  }
+  section{
+    font-size:14px;
+    line-height:1.8;
+    color:black
+  }
+  footer{ font-size: 15px;
+    line-height: 2.5;
+    color: rgb(255, 255, 255)
+  }
