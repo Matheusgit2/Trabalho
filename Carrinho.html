@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho - Padaria Delícias da Vila</title>
+    <link rel="stylesheet" href="estilera.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Carrinho de Compras</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar à Loja</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Itens no seu carrinho:</h2>
+            <ul id="lista-carrinho"></ul>
+            <button onclick="limparCarrinho()">Limpar Carrinho</button>
+        </div>
+    </section>
+
+    <script>
+        const lista = document.getElementById("lista-carrinho");
+        const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+
+        if (carrinho.length === 0) {
+            lista.innerHTML = "<li>Seu carrinho está vazio.</li>";
+        } else {
+            carrinho.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = item;
+                lista.appendChild(li);
+            });
+        }
+
+        function limparCarrinho() {
+            localStorage.removeItem("carrinho");
+            location.reload();
+        }
+    </script>
+</body>
+</html>
