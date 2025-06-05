@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+       <style>
+    .carrossel {
+      position: relative;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+    }
+    .imagens {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+    .imagens img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .botoes {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .botoes button {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+        
         <style>
             ul {
               list-style-type: none;
@@ -35,6 +68,8 @@
             <li><a class="active" href="index.html">Casa</a></li>
            
           </ul>
+          <button onclick="changeLang('pt')">Português</button>
+      <button onclick="changeLang('en')">English</button>
         <h1>Ofensiva dos 100 dias</h1>
         <p>A Ofensiva dos 100 dias foi o último ataque da Tríplice Entente formada por França, Reino Unido e Estados Unidos.</p>
         <section>Como o próprio nome diz ela durou 100 dias e foi decisiva para derrota alemã, já que forçou sua saída do território francês</section>
