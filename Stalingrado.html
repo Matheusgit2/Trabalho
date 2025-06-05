@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+       <style>
+    .carrossel {
+      position: relative;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+    }
+    .imagens {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+    .imagens img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .botoes {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .botoes button {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+        
         <style>
             ul {
               list-style-type: none;
@@ -27,14 +60,17 @@
             }
             </style>
         <meta charset="UTF-8">
-        <title>Minha Primeira Página</title>
+        <title>Stalingrado</title>
         <link rel="stylesheet" href="staylo.css">
     </head>
     <body>
         <ul>
             <li><a class="active" href="index.html">Casa</a></li>
+          
            
           </ul>
+           <button onclick="changeLang('pt')">Português</button>
+      <button onclick="changeLang('en')">English</button>
         <h1>Batalha de Stalingrado</h1>
         <p>Essa foi uma das maiores batalhas da segunda guerra, travada pela Alemanha e URSS</p>
         <section>Ela ocorreu entre 1942 e 1943. Sendo uma das mais sangrentas da história</section>
