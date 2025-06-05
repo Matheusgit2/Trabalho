@@ -7,15 +7,19 @@
     "site_description": "This site aims to teach the most important battles of the major historical periods.",
     "future_updates": "We will cover Ancient Greece and the World Wars. More periods will likely be added in future updates.",
     "image_caption": "The images above represent some of the periods you will learn about on this site.",
-    "legends": "Legends: Blue and white gradient title: Greco-Persian Wars | Black, white and red gradient: World War I | Red and yellow gradient: World War II"
-      "marathon_battle": "Battle of Marathon" ,
+    "legends": "Legends: Blue and white gradient title: Greco-Persian Wars | Black, white and red gradient: World War I | Red and yellow gradient: World War II" ,
+    "marathon_battle": "Battle of Marathon" ,
         "battle_of_themorpilae": "Battle of Themorpilae" ,
         "Battle_of_Verdun": "Battle of Verdun",
+        "Hundred_Days_Offensive" : "Hundred Days Offensive",
         "Battle_of_Stalingrad": "Battle of Stalingrad" ,
-        "Invasion_of_Normandy": "Invasion of Normandy"
+        "Invasion_of_Normandy": "Invasion of Normandy" ,
+        "title_marathon": "Marathon" ,
+        "description_marathon1": "The Battle of Marathon took place in 490 BC. In it, Athenians and Plataeans began a battle against the Persians." ,
+        "description_marathon2": "On a plain located between the sea and some mountains." , 
+        "description_marathon3": "At the end of the battle, the 15,000 Greeks would emerge victorious" ,
+        "curiosity1": "The battle was important for the birth of Western culture, as it prevented the invasion of Europe by the Persians." ,
+        "recomendation": "Watch the video below for a more detailed analysis."
+        
   }
-
-
-    
-  
   
