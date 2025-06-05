@@ -1,4 +1,5 @@
 
+  
     {
         "title": "História: Batalhas Decisivas",
         "choose_period": "Clique abaixo para escolher seu período:",
@@ -8,13 +9,19 @@
         "site_description": "Esse site visa o aprendizado das batalhas mais importantes dos principais períodos da história.",
         "future_updates": "Dos períodos a serem abordados temos da Grécia antiga e das guerras mundiais. Provavelmente teremos mais com as próximas atualizações.",
         "image_caption": "As imagens acima são de alguns desses períodos que você aprenderá neste site.",
-        "legends": "Legendas: Título degradê azul e branco: Guerras Greco-Persas | Degradê preto, branco e vermelho: Primeira Guerra | Degradê vermelho e amarelo: Segunda Guerra"
+        "legends": "Legendas: Título degradê azul e branco: Guerras Greco-Persas | Degradê preto, branco e vermelho: Primeira Guerra | Degradê vermelho e amarelo: Segunda Guerra" ,
         "marathon_battle": "Batalha de maratona" ,
         "battle_of_themorpilae": "Batalha das Termópilas" ,
         "Battle_of_Verdun": "Batalha de Verdun",
+        "Hundred_Days_Offensive" : "Ofensiva dos 100 dias", 
         "Battle_of_Stalingrad": "Batalha de Stalingrado" ,
-        "Invasion_of_Normandy": "Invasão da Normandia"
-
+        "Invasion_of_Normandy": "Invasão da Normandia" ,
+        "title_marathon" : "Maratona" ,
+        "description_marathon1": "A Batalha de Maratona ocorreu em 490 a.C. Nela atenienses e plateenses iniciaram uma batalha contra os persas" ,
+        "description_marathon2": "numa planície localiza entre o mar e algumas montanhas." , 
+        "description_marathon3": "Ao fim da batalha os 15 mil gregos sairiam vitoriosos." ,
+        "curiosity1": "A batalha foi importante para o nascimento da cultura ocidental, pois impediu a invasão da Europa pelos Persas." ,
+        "recomendation": "Veja o Vídeo abaixo pra análise mais detalhada"
         
-      }
-
+        
+    }
