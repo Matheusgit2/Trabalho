@@ -14,19 +14,30 @@
         "Hundred_Days_Offensive" : "Hundred Days Offensive",
         "Battle_of_Stalingrad": "Battle of Stalingrad" ,
         "Invasion_of_Normandy": "Invasion of Normandy" ,
-        "title_marathon": "Marathon" ,
         "description_marathon1": "The Battle of Marathon took place in 490 BC. In it, Athenians and Plataeans began a battle against the Persians." ,
         "description_marathon2": "On a plain located between the sea and some mountains." , 
         "description_marathon3": "At the end of the battle, the 15,000 Greeks would emerge victorious" ,
         "curiosity1": "The battle was important for the birth of Western culture, as it prevented the invasion of Europe by the Persians." ,
         "recomendation": "Watch the video below for a more detailed analysis." ,
-       "title_Themorpilae": "Themorpilae" ,
-        "main":"The Battle of Thermopylae took place in 480 B.C., during the Persian Wars. The Spartan army, led by Leonidas, faced a gigantic Persian army in a three-day battle." ,
-        "description_Thermo": "There were 1 million Persians against 300 Spartans and other Greeks. In the end, the Greek army won, and this battle inspired the book 300" ,
-        "curiosity_thermo": "One of the great myths of this battle is that 300 Spartans defeated 1.5 million Persians" ,
-        "answer_curiosity":"What really happened was that 300 Spartans, along with others such as Athenians and Corinthians, fought against the Persians." 
-
-        
-        
+       "sugestion": "Since you saw this one, you might be interested in this one: <a id='linkMaratona' href='Maratona.html'>Battle of Marathon</a>" ,
+       "main": "The Battle of Thermopylae took place in 480 B.C., during the Persian Wars. The Spartan army, led by Leonidas, faced a gigantic Persian army in a three-day battle." ,
+       "description_thermo": "There were 1 million Persians against 300 Spartans and other Greeks. In the end, the Greek army won, and this battle inspired the book 300." ,
+       "myth_thermo": "One of the great myths of this battle is that 300 Spartans defeated 1.5 million Persians." ,
+       "myth_answer": "What really happened was that 300 Spartans, along with others such as Athenians and Corinthians, fought against the Persians." ,
+       "Video": "Watch the video below." ,
+       "Verdun_intro": "This battle took place during the World War I, in 1916, being the longest of the war on the Western Front." ,
+       "description_Verdun1":"It was fought between the Germans and the French and was very important, as this region was crucial for Germany to begin its attack on Paris" ,
+       "description_Verdun2":"At the end of the battle, the French emerged victorious, preventing a possible attack on Paris." ,
+       "Verdun_end":"Even so, France ended the battle with heavy losses" ,
+       "video_verdun":"See the video below for a better understanding:" ,
+       "Offensive_description": "The Hundred Days Offensive was the final attack by the Triple Entente, composed of France, the United Kingdom, and the United States" ,
+       "Offensive_continuation":"As the name suggests, it lasted 100 days and was decisive for the German defeat, as it forced their withdrawal from French territory" ,
+       "Offensive_end":"At the end of the battle, the French emerged victorious, bringing the war much closer to its end." ,
+    "Offensive_video":"See the video above for a better understanding" ,
+    "Stalingrad":"Battle of Stalingrad",
+    "Stalingrad_intro":"This was one of the largest battles of the Second World War, fought between Germany and the USSR." ,
+    "Stalingrad_description":"It took place between 1942 and 1943 and was one of the bloodiest battles in history. The Soviet Union emerged victorious after a major turnaround, aided by the harsh winter." ,
+    "Stalingrad_end":"After this battle, Germany would begin its downfall" ,
+    "Video_Stalingrad":"See the video above for a better understanding"
   }
   
