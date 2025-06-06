@@ -1,9 +1,15 @@
-body {
-    background-color: #242424;
-    font-family: Arial, sans-serif;
-    color: #fcfcfc;
-    margin: 20px;
-  }
+body 
+  {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+  
   
   /* Estiliza o cabeçalho principal */
   h2 {
