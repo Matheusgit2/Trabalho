@@ -1,30 +1,89 @@
 body {
-    background-color: #de1e1e5c;
-    font-family: 'Times New Roman', Times, serif;
-    color: #333;
-    margin: 20px;
-   
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+   .translate-btn-pt {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 20px 24px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #e6ff02; /* cor de fundo (verde como exemplo) */
+  color: rgb(23, 228, 102); /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+.translate-btn:hover {
+  background-color: #a7b85f; /* cor quando passa o mouse */
+}
+
+.translate-btn-en {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 20px 20px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #0408ff; /* cor de fundo (verde como exemplo) */
+  color: rgb(255, 4, 4); /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+
+
+.translate-btn:hover {
+  background-color: #3533d4; /* cor quando passa o mouse */
+}
+
+
+.translate-btn-alt {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 16px 12px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #000000; /* cor de fundo (verde como exemplo) */
+  color: white; /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+.translate-btn:hover {
+  background-color: #45a049; /* cor quando passa o mouse */
+}
+
 h1 {
-    color: #000000;
-    text-align: center;
-    text-decoration: solid overline underline;
-    border-radius:20pc;
-    border-style: double;
-    background-image: linear-gradient(to right, red, yellow);
-    
-  }
-  p {
-    font-size: 18px;
-    line-height: 2;
-    color: white
-  }
-  section{
-    font-size:14px;
-    line-height:1.8;
-    color:black
-  }
-  footer{ font-size: 15px;
-    line-height: 2.5;
-    color: rgb(255, 255, 255)
-  }
+  color: #000000;
+  text-align: center;
+  text-decoration: solid overline underline;
+  border-radius:20pc;
+  border-style: double;
+  background-image: linear-gradient(to right, red, blue, white);
+
+
+  
+  
+}
+p {
+  font-size: 18px;
+  line-height: 2;
+  color: rgb(255, 255, 255)
+}
+section{
+  font-size:14px;
+  line-height:1.8;
+  color:rgb(255, 255, 255)
+}
+footer{ font-size: 15px;
+  line-height: 2.5;
+  color: rgb(255, 255, 255)
+}
+ 
