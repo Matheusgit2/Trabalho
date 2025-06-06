@@ -1,17 +1,140 @@
-async function changeLang(lang) {
-    try {
-      const res = await fetch(`${lang}.json`);
-      if (!res.ok) throw new Error("Erro ao carregar o JSON");
-      
-      const data = await res.json();
-  
-      document.getElementById("marathon_battle").textContent = data.marathon_battle;
-      document.getElementById("description_marathon1").textContent = data.description_marathon1;
-      document.getElementById("description_marathon2").textContent = data.description_marathon2;
-      document.getElementById("description_marathon3").textContent = data.description_marathon3;
-      document.getElementById("curiosity1").textContent = data.curiosity1;
-       document.getElementById("recomendation").textContent = data.recomendation;
-    } catch (err) {
-      console.error("Erro ao traduzir:", err);
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" href="stylo.css">
+        <style>
+    .carrossel {
+      position: relative;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
     }
-}
+    .imagens {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+    .imagens img {
+      width: 100%;
+      flex-shrink: 0;
+    }
+    .botoes {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .botoes button {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #000000;
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 20px 5px;
+              text-decoration: none;
+            }
+            
+          
+            </style>
+            
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      
+       <script src="script_maratona.js"></script>
+        <ul>
+            <li><a class="active" href="index.html">Casa</a></li>
+           
+          </ul>
+          <p></p>
+          <button class="translate-btn-pt" onclick="changeLang('pt')">Português</button>
+      <button class="translate-btn-en"onclick="changeLang('en')">English</button>
+          <button class="translate-btn-alt"id="theme-toggle">Alternar Tema</button>
+
+          <script>
+    
+    function applySavedTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+        } else {
+            document.body.classList.remove('dark-theme');
+        }
+    }
+
+    
+    applySavedTheme();
+
+    
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        
+        
+        if (document.body.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script>
+
+          
+          <h1 id="marathon_battle">Batalha de Maratona</h1>
+          <p id="description_marathon1">A Batalha de Maratona ocorreu em 490 a.C. Nela atenienses e plateenses iniciaram uma batalha contra os persas </p>
+          <p id="description_marathon2">numa planície localiza entre o mar e algumas montanhas. </p>
+          <p id="description_marathon3">Ao fim da batalha os 15 mil gregos sairiam vitoriosos.</p>
+          <section id="curiosity1">A batalha foi importante para o nascimento da cultura ocidental, pois impediu a invasão da Europa pelos Persas. </section>
+          <div class="carrossel">
+  <div class="imagens" id="imagens">
+    <img src="https://historiamilitaremdebate.com.br/wp-content/uploads/2023/03/B-1-19-2.png" alt="Imagem 1">
+    <img src="https://www.historiaemcortes.com.br/wp-content/uploads/2023/06/rsas-na-batalha-de-maratona-768x511-1.webp" alt="Imagem 2">
+    <img src="https://alaricocelestino.wordpress.com/wp-content/uploads/2015/01/warfare-battle-of-marathon-2.jpg?w=604" alt="Imagem 3">
+  </div>
+  <div class="botoes">
+    <button onclick="mudarSlide(-1)">&#10094;</button>
+    <button onclick="mudarSlide(1)">&#10095;</button>
+  </div>
+</div>
+
+<script>
+  let indice = 0;
+  const imagens = document.getElementById('imagens');
+  const total = imagens.children.length;
+
+  function mudarSlide(direcao) {
+    indice = (indice + direcao + total) % total;
+    imagens.style.transform = `translateX(-${indice * 100}%)`;
+  }
+</script>
+
+          
+  
+  
+          <p id="recomendation">Veja o Vídeo abaixo pra análise mais detalhada </p>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TN2cK7F7lo4?si=6VBSeJrgmZGZZAmT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            
+          </body>
+          </html>
