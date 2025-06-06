@@ -21,7 +21,13 @@
         "description_marathon2": "numa planície localiza entre o mar e algumas montanhas." , 
         "description_marathon3": "Ao fim da batalha os 15 mil gregos sairiam vitoriosos." ,
         "curiosity1": "A batalha foi importante para o nascimento da cultura ocidental, pois impediu a invasão da Europa pelos Persas." ,
-        "recomendation": "Veja o Vídeo abaixo pra análise mais detalhada"
+        "recomendation": "Veja o Vídeo abaixo pra análise mais detalhada" ,
+       "title_Themorpilae": "Temórfilas" ,
+        "main": "A Batalha das Termófilas ocorreu no ano de 480a.C, durante as Guerras Médicas, o exército Spartano comandado por Leônidas, enfrentou um gigantesco exército persa, numa batalha de 3 dias" ,
+        "description_Thermo": "Eram 1 milhão de persas contra 300 spartanos e outros gregos, no fim o exército grego venceu e essa batalha inspirou o livro 300" ,
+        "curiosity_thermo":"Inclusive um grande mito dessa batalha foi que 300 spartanos venceram 1,5M de persas" ,
+        "answer_curiosity":"Oque realmente aconteceu foi que 300 spartanos, além de outros como atenienses e corintios derrotaram os persas"
+        
         
         
     }
