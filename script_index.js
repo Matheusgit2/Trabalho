@@ -8,7 +8,7 @@ async function changeLang(lang) {
       document.getElementById("title").textContent = data.title;
       document.getElementById("choose_period").textContent = data.choose_period;
       document.getElementById("greco_persian_wars").textContent = data.greco_persian_wars;
-      document.getElementById("battle_of_themorpilae").textContent = data.battle_of_themorpilae
+      document.getElementById("battle_of_themorpilae").textContent = data.battle_of_themorpilae;
       document.getElementById("marathon_battle").textContent = data.marathon_battle;
        document.getElementById("ww1").textContent = data.ww1;
        document.getElementById("Battle_of_Verdun").textContent = data.Battle_of_Verdun;
