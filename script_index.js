@@ -55,4 +55,24 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
         localStorage.setItem('theme', 'light');
     }
 });
+
+
+  document.getElementById("formBatalha").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    var batalha = document.getElementById("batalha").value.trim();
+    var erro = "";
+    var sucesso = "";
+
+    if (batalha === "") {
+      erro = "Por favor, digite o nome de uma batalha.";
+    } else {
+      sucesso = "Obrigado! Sua batalha favorita foi registrada.";
+    }
+
+    document.getElementById("mensagemErro").innerHTML = erro;
+    document.getElementById("mensagemSucesso").innerHTML = sucesso;
+
+    
+  });
+
   
