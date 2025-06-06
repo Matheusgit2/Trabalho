@@ -6,7 +6,7 @@ async function changeLang(lang) {
       const data = await res.json();
   
       document.getElementById("sugestion").innerHTML = data.sugestion;
-      document.getElementById("title_thermo").textContent = data.title_thermo;
+      document.getElementById("battle_of_themorpilae").textContent = data.battle_of_themorpilae;
        document.getElementById("main").textContent = data.main;
       document.getElementById("description_thermo").textContent = data.description_thermo;
       document.getElementById("myth_thermo").textContent = data.myth_thermo;
