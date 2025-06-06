@@ -15,3 +15,27 @@ async function changeLang(lang) {
       console.error("Erro ao traduzir:", err);
     }
 }
+
+function applySavedTheme() {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+      document.body.classList.add('dark-theme');
+  } else {
+      document.body.classList.remove('dark-theme');
+  }
+}
+
+// Aplicar tema ao carregar a página
+applySavedTheme();
+
+// Alternador de tema
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme');
+  
+  // Salvar preferência no localStorage
+  if (document.body.classList.contains('dark-theme')) {
+      localStorage.setItem('theme', 'dark');
+  } else {
+      localStorage.setItem('theme', 'light');
+  }
+});
