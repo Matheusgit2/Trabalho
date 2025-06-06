@@ -14,27 +14,4 @@ async function changeLang(lang) {
     } catch (err) {
       console.error("Erro ao traduzir:", err);
     }
-  }
-  function applySavedTheme() {
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-theme');
-        } else {
-            document.body.classList.remove('dark-theme');
-        }
-    }
-
-    
-    applySavedTheme();
-
-    
-    document.getElementById('theme-toggle').addEventListener('click', () => {
-        document.body.classList.toggle('dark-theme');
-        
-        
-        if (document.body.classList.contains('dark-theme')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
-        }
-    });
+}
