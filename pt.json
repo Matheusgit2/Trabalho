@@ -1,6 +1,4 @@
-
-  
-    {
+ {
         "title": "História: Batalhas Decisivas",
         "choose_period": "Clique abaixo para escolher seu período:",
         "greco_persian_wars": "Guerras Greco-Persas",
@@ -10,24 +8,36 @@
         "future_updates": "Dos períodos a serem abordados temos da Grécia antiga e das guerras mundiais. Provavelmente teremos mais com as próximas atualizações.",
         "image_caption": "As imagens acima são de alguns desses períodos que você aprenderá neste site.",
         "legends": "Legendas: Título degradê azul e branco: Guerras Greco-Persas | Degradê preto, branco e vermelho: Primeira Guerra | Degradê vermelho e amarelo: Segunda Guerra" ,
-        "marathon_battle": "Batalha de maratona" ,
+        "marathon_battle": "Batalha de Maratona" ,
         "battle_of_themorpilae": "Batalha das Termópilas" ,
         "Battle_of_Verdun": "Batalha de Verdun",
         "Hundred_Days_Offensive" : "Ofensiva dos 100 dias", 
         "Battle_of_Stalingrad": "Batalha de Stalingrado" ,
         "Invasion_of_Normandy": "Invasão da Normandia" ,
-        "title_marathon" : "Maratona" ,
         "description_marathon1": "A Batalha de Maratona ocorreu em 490 a.C. Nela atenienses e plateenses iniciaram uma batalha contra os persas" ,
         "description_marathon2": "numa planície localiza entre o mar e algumas montanhas." , 
         "description_marathon3": "Ao fim da batalha os 15 mil gregos sairiam vitoriosos." ,
         "curiosity1": "A batalha foi importante para o nascimento da cultura ocidental, pois impediu a invasão da Europa pelos Persas." ,
         "recomendation": "Veja o Vídeo abaixo pra análise mais detalhada" ,
-       "title_Themorpilae": "Temórfilas" ,
+        "sugestion": "Como você viu essa você pode se interessar por esta: <a id='linkMaratona' href='Maratona.html'>Batalha de Maratona</a>" ,
         "main": "A Batalha das Termófilas ocorreu no ano de 480a.C, durante as Guerras Médicas, o exército Spartano comandado por Leônidas, enfrentou um gigantesco exército persa, numa batalha de 3 dias" ,
-        "description_Thermo": "Eram 1 milhão de persas contra 300 spartanos e outros gregos, no fim o exército grego venceu e essa batalha inspirou o livro 300" ,
-        "curiosity_thermo":"Inclusive um grande mito dessa batalha foi que 300 spartanos venceram 1,5M de persas" ,
-        "answer_curiosity":"Oque realmente aconteceu foi que 300 spartanos, além de outros como atenienses e corintios derrotaram os persas"
-        
-        
-        
+        "description_thermo":"Eram 1 milhão de persas contra 300 spartanos e outros gregos, no fim o exército grego venceu e essa batalha inspirou o livro 300" ,
+        "myth_thermo": "Inclusive um grande mito dessa batalha foi que 300 spartanos venceram 1,5M de persas" ,
+        "myth_answer": "Oque realmente aconteceu foi que 300 spartanos, além de outros como atenienses e corintios derrotaram os persas" ,
+        "Video": "Assista ao video abaixo:" ,
+        "Verdun_intro":"Essa batalha aconteceu durante a Primeira Guerra, no ano de 1916, sendo mais londa da Guerra pela Front Ocidental." ,
+        "description_Verdun1": "Ela foi travada entre alemães e frances e foi muito importante, pois essa região era importante para a Alemanha começar a atacar Paris" ,
+        "description_Verdun2":"Ao fim da batalha os franceses venceram impedindo um possível ataque à Paris" ,
+        "Verdun_end":"Mesmo assim a França terminou a batalha com muitas perdas",
+        "video_verdun": "Vídeo abaixo para melhor entendimento:" ,
+        "Offensive_description": "A Ofensiva dos 100 dias foi o último ataque da Tríplice Entente formada por França, Reino Unido e Estados Unidos." ,
+        "Offensive_continuation":"Como o próprio nome diz ela durou 100 dias e foi decisiva para derrota alemã, já que forçou sua saída do território francês" ,
+        "Offensive_end":"Ao fim da batalha os franceses venceram fazendo a guerra se aproximar muito do fim." ,
+        "Offensive_video": "Video acima para melhor compreensão" ,
+        "Stalingrad":"Batalha de Stalingrado" ,
+        "Stalingrad_intro": "Essa foi uma das maiores batalhas da segunda guerra, travada pela Alemanha e URSS" ,
+        "Stalingrad_description": "Ela ocorreu entre 1942 e 1943. Sendo uma das mais sangrentas da história Teve a União Soviética como vencedora após uma grande virada ajudada pelo inverno" ,
+        "Stalingrad_end": "Após essa batalha a Alemanha começaria sua derrocada" ,
+        "Video_Stalingrad": "Vídeo acima para melhor compreensão"
+
     }
