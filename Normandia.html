@@ -69,14 +69,42 @@
                 <li><a class="active" href="index.html">Casa</a></li>
                
               </ul>
-              <button onclick="changeLang('pt')">Português</button>
-      <button onclick="changeLang('en')">English</button>
+              <button class="translate-btn-pt" onclick="changeLang('pt')">Português</button>
+      <button class="translate-btn-en" onclick="changeLang('en')">English</button>
+      <button class="translate-btn-alt" id="theme-toggle">Alternar Tema</button>
+      <script>
+    // Função para aplicar o tema salvo (se houver)
+    function applySavedTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+        } else {
+            document.body.classList.remove('dark-theme');
+        }
+    }
+
+    // Aplicar tema ao carregar a página
+    applySavedTheme();
+
+    // Alternador de tema
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        
+        // Salvar preferência no localStorage
+        if (document.body.classList.contains('dark-theme')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+    });
+</script>
+
             <h1 id="Invasion_of_Normandy">Invasão da Normandia</h1>
-            <main><p id="Normandy1">A invasão da Normandia foi um ataque aliado na França com o objetivo de expulsar os alemães do país.</p></main>
-            <section id="Normandy2">O começo da invasão com a "Operação Guarda-Costas" que teve como objetivo enganar os alemães com balões infláveis.</section>
+            <main><article id="Normandy1">A invasão da Normandia foi um ataque aliado na França com o objetivo de expulsar os alemães do país.</article></main>
+            <article id="Normandy2">O começo da invasão com a "Operação Guarda-Costas" que teve como objetivo enganar os alemães com balões infláveis.</article>
             <article id="Normandy3">Após isso os aliados lançam a "Operação Overlord" que destrói as posições alemães. </article>
-           <section id="Normandy4">Ao fim da batalha os aliados venceram
-           </section> 
+           <article id="Normandy4">Ao fim da batalha os aliados venceram
+           </article> 
            <div class="carrossel">
   <div class="imagens" id="imagens">
     <img src="https://www.monolitonimbus.com.br/wp-content/uploads/2013/07/normandia.jpg.webp" alt="Imagem 1">
@@ -101,7 +129,6 @@
 </script>
           
            </p><iframe width="560" height="315" src="https://www.youtube.com/embed/y_bkczormmI?si=XT2-ROYn3cf17zRa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <footer>Vídeo acima para mais aprofundamento</footer>
+           <article id="Normandia5">Vídeo acima para mais aprofundamento</article>
         </body>
-    </html>
-      
+    </html>      
