@@ -9,7 +9,60 @@ body.dark-theme {
     background-color: #121212;
     color: white;
 }
+
+.translate-btn-pt {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 20px 24px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #bbc942; /* cor de fundo (verde como exemplo) */
+  color: rgb(23, 228, 102); /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+.translate-btn:hover {
+  background-color: #a7b85f; /* cor quando passa o mouse */
+}
+
+.translate-btn-en {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 20px 20px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #0408ff; /* cor de fundo (verde como exemplo) */
+  color: rgb(255, 4, 4); /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+
+
+.translate-btn:hover {
+  background-color: #3533d4; /* cor quando passa o mouse */
+}
+
+
+.translate-btn-alt {
+  font-size: 18px; /* aumenta o tamanho da fonte */
+  padding: 16px 12px; /* aumenta o tamanho do botão (altura e largura) */
+  margin: 5px; /* espaço entre os botões */
+  cursor: pointer;
+  background-color: #000000; /* cor de fundo (verde como exemplo) */
+  color: white; /* cor do texto */
+  border: none;
+  border-radius: 16px; /* cantos arredondados */
+  transition: background-color 0.3s ease;
+}
+
+.translate-btn:hover {
+  background-color: #45a049; /* cor quando passa o mouse */
+}
   
+
+
   
   /* Estiliza o cabeçalho principal */
   h2 {
@@ -25,6 +78,6 @@ body.dark-theme {
   footer{
     font-size: 12px;
     line-height: 2;
-    color:yellow
+    color:rgb(0, 0, 0)
     
   }
