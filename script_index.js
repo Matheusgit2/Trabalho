@@ -43,36 +43,5 @@ async function changeLang(lang) {
 
 
 applySavedTheme();
+}
 
-
-document.getElementById('theme-toggle').addEventListener('click', () => {
-    document.body.classList.toggle('dark-theme');
-    
-   
-    if (document.body.classList.contains('dark-theme')) {
-        localStorage.setItem('theme', 'dark');
-    } else {
-        localStorage.setItem('theme', 'light');
-    }
-});
-
-
-  document.getElementById("formBatalha").addEventListener("submit", function(event) {
-    event.preventDefault(); 
-    var batalha = document.getElementById("batalha").value.trim();
-    var erro = "";
-    var sucesso = "";
-
-    if (batalha === "") {
-      erro = "Por favor, digite o nome de uma batalha.";
-    } else {
-      sucesso = "Obrigado! Sua batalha favorita foi registrada.";
-    }
-
-    document.getElementById("mensagemErro").innerHTML = erro;
-    document.getElementById("mensagemSucesso").innerHTML = sucesso;
-
-    
-  });
-
-  
