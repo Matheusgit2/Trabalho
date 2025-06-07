@@ -327,6 +327,67 @@ function compartilharNoTwitter() {
     
         
         <script src="script_index.js"></script>
+
+        <h2>Qual é a sua batalha favorita?</h2>
+
+<form id="formBatalha">
+  <label for="batalha">Nome da batalha:</label><br>
+  <input type="text" id="batalha" name="batalha"><br><br>
+  
+  <input type="submit" value="Enviar">
+</form>
+
+<p id="mensagemErro" style="color:red;"> Digite Novamente</p>
+<p id="mensagemSucesso" style="color:green;">Obrigado</p>
+
+<script>
+  // Função para definir um cookie
+  function setCookie(nome, valor, dias) {
+    var data = new Date();
+    data.setTime(data.getTime() + (dias * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + data.toUTCString();
+    document.cookie = nome + "=" + valor + ";" + expires + ";path=/";
+  }
+
+  // Função para pegar um cookie
+  function getCookie(nome) {
+    var nomeIgual = nome + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i].trim();
+      if (c.indexOf(nomeIgual) == 0) {
+        return c.substring(nomeIgual.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  // Mostrar a batalha já escolhida se houver cookie
+  var batalhaSalva = getCookie("batalhaFavorita");
+  if (batalhaSalva !== "") {
+    document.getElementById("mensagemSucesso").innerHTML = "Você já escolheu a batalha: <b>" + batalhaSalva + "</b>";
+  }
+
+  // Validação do formulário
+  document.getElementById("formBatalha").addEventListener("submit", function(event) {
+    event.preventDefault(); // impede envio padrão
+
+    var batalha = document.getElementById("batalha").value.trim();
+    var erro = "";
+    var sucesso = "";
+
+    if (batalha === "") {
+      erro = "Por favor, digite o nome de uma batalha.";
+    } else {
+      // Salvar em cookie por 7 dias
+      setCookie("batalhaFavorita", batalha, 7);
+      sucesso = "Obrigado! Sua batalha favorita foi registrada: <b>" + batalha + "</b>";
+    }
+
+    document.getElementById("mensagemErro").innerHTML = erro;
+    document.getElementById("mensagemSucesso").innerHTML = sucesso;
+  });
+</script>
         
         </body>
         </html>
