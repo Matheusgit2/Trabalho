@@ -70,11 +70,27 @@
            
            
           </ul>
-         <script src="script_verdun.js"></script>
+         
            <button class="translate-btn-pt"onclick="changeLang('pt')">Português</button>
       <button class="translate-btn-en"onclick="changeLang('en')">English</button>
       <button class="translate-btn-alt"id="theme-toggle">Alternar Tema</button>
-       
+       <script>async function changeLang(lang) {
+    try {
+      const res = await fetch(`${lang}.json`);
+      if (!res.ok) throw new Error("Erro ao carregar o JSON");
+      
+      const data = await res.json();
+  
+      document.getElementById("Battle_of_Verdun").textContent = data.Battle_of_Verdun;
+      document.getElementById("Verdun_intro").textContent = data.Verdun_intro;
+      document.getElementById("description_Verdun1").textContent = data.description_Verdun1;
+      document.getElementById("description_Verdun2").textContent = data.description_Verdun2;
+      document.getElementById("Verdun_end").textContent = data.Verdun_end;
+       document.getElementById("video_verdun").textContent = data.video_verdun;
+    } catch (err) {
+      console.error("Erro ao traduzir:", err);
+    }
+  } </script>
       
       
       
