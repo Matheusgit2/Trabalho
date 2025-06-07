@@ -38,6 +38,13 @@
         "Stalingrad_intro": "Essa foi uma das maiores batalhas da segunda guerra, travada pela Alemanha e URSS" ,
         "Stalingrad_description": "Ela ocorreu entre 1942 e 1943. Sendo uma das mais sangrentas da história Teve a União Soviética como vencedora após uma grande virada ajudada pelo inverno" ,
         "Stalingrad_end": "Após essa batalha a Alemanha começaria sua derrocada" ,
-        "Video_Stalingrad": "Vídeo acima para melhor compreensão"
+        "Video_Stalingrad": "Vídeo acima para melhor compreensão" ,
+  "Normandy1":"A invasão da Normandia foi um ataque aliado na França com o objetivo de expulsar os alemães do país." ,
+        "Normandy2":"O começo da invasão com a 'Operação Guarda-Costas' que teve como objetivo enganar os alemães com balões infláveis." ,
+        "Normandy3":"Após isso os aliados lançam a 'Operação Overlord' que destrói as posições alemães" ,
+        "Normandy 4": "Ao fim da batalha os aliados venceram"  ,
+        "Normandy5": "Vídeo acima para mais aprofundamento"
+    }
+    
 
     }
