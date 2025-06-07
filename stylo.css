@@ -1,3 +1,13 @@
+body  {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+  background-color: #000000;
+  color: rgb(0, 0, 0);
+}
 .translate-btn-pt {
   font-size: 18px; /* aumenta o tamanho da fonte */
   padding: 20px 24px; /* aumenta o tamanho do botão (altura e largura) */
@@ -49,3 +59,18 @@
   background-color: #45a049; /* cor quando passa o mouse */
 }
   
+  /* Estiliza o cabeçalho principal */
+  h1 {
+    color: #000000;
+    text-align: center;
+    border-style: solid;
+    text-decoration:solid overline underline;
+    border-radius: 2pc;
+    background-image: linear-gradient(to right,rgb(250, 250, 255), rgb(0, 38, 255));
+  }
+  
+  /* Estiliza o parágrafo */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
